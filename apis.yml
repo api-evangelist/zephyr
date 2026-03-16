@@ -1,0 +1,44 @@
+aid: zephyr
+name: Zephyr Project
+description: >-
+  The Zephyr Project is a Linux Foundation project providing a small, scalable real-time operating system for resource-constrained devices. It supports multiple hardware architectures and provides a complete development environment for IoT and embedded applications with built-in security features.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - RTOS
+  - IoT
+  - Embedded
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: zephyr:zephyr-api
+    name: Zephyr Project API
+    description: >-
+      Programmatic access to Zephyr RTOS APIs, device drivers, and IoT development tools.
+    humanURL: https://docs.zephyrproject.org/
+    tags:
+  - RTOS
+  - IoT
+  - Embedded
+  - Linux Foundation
+    properties:
+      - type: Documentation
+        url: https://docs.zephyrproject.org/
+common:
+  - type: Documentation
+    name: Zephyr Project Documentation
+    description: Official documentation for Zephyr Project.
+    url: https://docs.zephyrproject.org/
+  - type: GitHubOrg
+    name: Zephyr Project GitHub
+    description: Source code and repositories for Zephyr Project.
+    url: https://github.com/zephyrproject-rtos
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
