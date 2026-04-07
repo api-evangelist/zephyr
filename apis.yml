@@ -7,10 +7,10 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - RTOS
-  - IoT
   - Embedded
+  - IoT
   - Linux Foundation
+  - RTOS
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -23,10 +23,10 @@ apis:
       Programmatic access to Zephyr RTOS APIs, device drivers, and IoT development tools.
     humanURL: https://docs.zephyrproject.org/
     tags:
-      - RTOS
-      - IoT
       - Embedded
+      - IoT
       - Linux Foundation
+      - RTOS
     properties:
       - type: Documentation
         url: https://docs.zephyrproject.org/
