@@ -1,0 +1,33 @@
+name: Zephyr Build and Flash Capability
+description: >-
+  Capability composition that walks a developer through initializing a
+  Zephyr workspace with west, building a sample for a target board, and
+  flashing the resulting binary onto hardware. Captures the canonical
+  developer workflow rather than a REST API surface.
+api: zephyr
+version: '1.0.0'
+operations:
+  - id: westInit
+    summary: Initialize a Zephyr workspace from the manifest
+    command: west init -m https://github.com/zephyrproject-rtos/zephyr --mr main workspace
+  - id: westUpdate
+    summary: Fetch and check out all manifest repositories
+    command: west update
+  - id: westBuild
+    summary: Build a sample for a target board
+    command: west build -p auto -b {board} samples/hello_world
+  - id: westFlash
+    summary: Flash the built artifact onto the connected board
+    command: west flash
+  - id: westDebug
+    summary: Launch a debug session against the running target
+    command: west debug
+workflow:
+  - step: westInit
+  - step: westUpdate
+  - step: westBuild
+    inputs:
+      board: nrf52840dk/nrf52840
+  - step: westFlash
+  - step: westDebug
+    optional: true

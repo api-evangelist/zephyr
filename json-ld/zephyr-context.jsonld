@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "zephyr": "https://www.zephyrproject.org/vocab#",
+    "Board": "zephyr:Board",
+    "Architecture": "zephyr:Architecture",
+    "SoC": "zephyr:SoC",
+    "Driver": "zephyr:Driver",
+    "Subsystem": "zephyr:Subsystem",
+    "Sample": "zephyr:Sample",
+    "Module": "zephyr:Module",
+    "Devicetree": "zephyr:Devicetree",
+    "Kconfig": "zephyr:Kconfig",
+    "Release": "zephyr:Release",
+    "name": "schema:name",
+    "description": "schema:description",
+    "version": "schema:version",
+    "url": "schema:url",
+    "license": "schema:license",
+    "vendor": "zephyr:vendor",
+    "architecture": "zephyr:architecture",
+    "supportedFeatures": "zephyr:supportedFeatures"
+  }
+}

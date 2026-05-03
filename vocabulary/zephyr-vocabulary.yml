@@ -1,0 +1,82 @@
+name: Zephyr Project Vocabulary
+description: >-
+  Domain vocabulary for the Zephyr Project, a Linux Foundation open-source
+  real-time operating system for embedded and IoT devices. Covers kernel,
+  drivers, devicetree, Kconfig, networking, security, and tooling concepts.
+modified: '2026-05-03'
+terms:
+  - term: RTOS
+    definition: A real-time operating system that guarantees deterministic response times for embedded workloads.
+    related: [Kernel]
+  - term: Kernel
+    definition: The Zephyr kernel responsible for scheduling, threads, IPC, synchronization, and timers.
+    related: [Thread, Scheduler]
+  - term: Thread
+    definition: An independent execution context managed by the Zephyr kernel, with its own stack and priority.
+    related: [Scheduler, Kernel]
+  - term: Scheduler
+    definition: The kernel component that selects which thread runs next based on priority and policy.
+    related: [Thread, Kernel]
+  - term: Devicetree
+    definition: A hierarchical hardware description format used by Zephyr to declare boards, SoCs, and peripherals.
+    related: [Kconfig, Board, SoC]
+  - term: Kconfig
+    definition: The Linux-style configuration system used to enable and tune Zephyr subsystems and drivers at build time.
+    related: [Devicetree]
+  - term: Board
+    definition: A specific physical or virtual development target with a defined set of peripherals supported by Zephyr.
+    related: [SoC, Architecture]
+  - term: SoC
+    definition: A system-on-chip platform that one or more Zephyr boards may target.
+    related: [Board, Architecture]
+  - term: Architecture
+    definition: The CPU instruction-set family (ARM Cortex, RISC-V, ARC, x86, Xtensa, MIPS, etc.) supported by Zephyr.
+    related: [SoC]
+  - term: Driver
+    definition: A device driver implementing one of Zephyr's uniform device subsystem APIs (GPIO, I2C, SPI, UART, etc.).
+    related: [Subsystem, Devicetree]
+  - term: Subsystem
+    definition: A horizontally factored Zephyr component such as networking, USB, Bluetooth, or display.
+    related: [Driver]
+  - term: West
+    definition: The Zephyr meta-tool used for fetching the manifest of repositories, building, flashing, and debugging.
+    related: [Workspace]
+  - term: Workspace
+    definition: A collection of repositories assembled by west using a manifest file.
+    related: [West]
+  - term: Manifest
+    definition: A YAML file consumed by west that pins repository versions for a Zephyr workspace.
+    related: [West, Workspace]
+  - term: Module
+    definition: An external repository (HAL, library, sample) integrated into a Zephyr workspace.
+    related: [West, Workspace]
+  - term: Sample
+    definition: A small, standalone application demonstrating a Zephyr feature on one or more boards.
+    related: [Board, Subsystem]
+  - term: HAL
+    definition: A vendor hardware abstraction layer integrated as a Zephyr module.
+    related: [Module, Driver]
+  - term: SDK
+    definition: The Zephyr SDK (sdk-ng) bundles toolchains and host tools for cross-compilation.
+    related: [West, Toolchain]
+  - term: Toolchain
+    definition: The cross-compiler toolchain used to build Zephyr for a target architecture.
+    related: [SDK]
+  - term: LTS
+    definition: A long-term-support Zephyr release line maintained for an extended period.
+    related: [Release]
+  - term: Matter
+    definition: A smart-home connectivity standard supported by Zephyr through its connectivity stack.
+    related: [Networking, Thread]
+  - term: Thread (protocol)
+    definition: An IPv6-based mesh networking protocol for IoT supported by Zephyr via OpenThread.
+    related: [Networking]
+  - term: Bluetooth
+    definition: Zephyr's Bluetooth Low Energy host and controller stack with support for mesh and audio profiles.
+    related: [Networking]
+  - term: PSA
+    definition: Platform Security Architecture - cryptographic and trusted-platform APIs supported by Zephyr.
+    related: [Security]
+  - term: Security
+    definition: Zephyr's security subsystem and SDLC processes, including CVE handling and signed releases.
+    related: [PSA]
