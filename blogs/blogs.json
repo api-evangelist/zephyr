@@ -1,0 +1,13 @@
+{
+  "repo": "zephyr",
+  "feeds": [
+    {
+      "source": "https://www.zephyrproject.org/blog/",
+      "feed_url": "https://www.zephyrproject.org/feed/",
+      "saved": 10,
+      "title": "Zephyr Project"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:38:34Z"
+}
