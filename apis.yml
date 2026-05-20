@@ -79,6 +79,8 @@ apis:
       - type: Documentation
         url: https://docs.zephyrproject.org/latest/connectivity/networking/index.html
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-zephyr-project
   - type: Portal
     name: Zephyr Project
     url: https://www.zephyrproject.org/
