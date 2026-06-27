@@ -99,7 +99,7 @@ common:
   - type: GitHubRepository
     name: Zephyr Primary Git Repository
     url: https://github.com/zephyrproject-rtos/zephyr
-  - type: SDK
+  - type: SDKs
     name: Zephyr SDK (sdk-ng)
     url: https://github.com/zephyrproject-rtos/sdk-ng
   - type: CLI
