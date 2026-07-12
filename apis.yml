@@ -79,6 +79,8 @@ apis:
       - type: Documentation
         url: https://docs.zephyrproject.org/latest/connectivity/networking/index.html
 common:
+  - type: DomainSecurity
+    url: security/zephyr-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-zephyr-project
   - type: Portal
