@@ -91,6 +91,9 @@ apis:
       - type: Documentation
         url: https://docs.zephyrproject.org/latest/connectivity/networking/index.html
 common:
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/zephyrproject-rtos/zephyr/blob/main/LICENSE
   - type: DomainSecurity
     url: security/zephyr-domain-security.yml
   - type: LinkedIn
@@ -146,9 +149,6 @@ common:
   - type: Resources
     name: Zephyr Vocabulary
     url: vocabulary/zephyr-vocabulary.yml
-  - type: Resources
-    name: Zephyr Build Capability
-    url: capabilities/zephyr-build.yaml
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
