@@ -36,7 +36,7 @@ created: '2026-03-16'
 modified: '2026-05-03'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: zephyr:zephyr-kernel-api
     name: Zephyr RTOS Kernel API
