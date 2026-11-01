@@ -1,4 +1,4 @@
-# Zephyr Project (zephyr)
+# Zephyr Project
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,82 +66,121 @@
 
 The Zephyr Project is a Linux Foundation project that delivers a small, scalable, secure, and open-source real-time operating system (RTOS) for resource-constrained embedded devices. Zephyr supports 1000+ boards across ARM Cortex, RISC-V, ARC, x86, Xtensa, and other architectures, ships with a C kernel, device drivers, networking stacks (BLE, Wi-Fi, Thread, Matter), security subsystems, and is supported by a meta-tool (west), an SDK (sdk-ng), and a broad ecosystem of training partners and commercial silicon and module vendors.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/apis.yml)
+**Areas:** Embedded · IoT · Linux Foundation · RTOS · Open Source · Edge
 
-## Scope
+## Zephyr Project on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Zephyr Project is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zephyr/](https://apis.io/providers/zephyr/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Embedded, IoT, Linux Foundation, RTOS, Open Source, Edge
+- [Zephyr RTOS Kernel API](https://apis.io/apis/zephyr/zephyr-kernel-api/) — The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications. It is the…
+- [Zephyr Device Driver API](https://apis.io/apis/zephyr/zephyr-device-driver-api/) — The Zephyr device driver subsystem exposes a uniform device model across GPIO, I2C, SPI, UART, ADC, sensors, displays, networking, USB, Bluetooth, and many…
+- [Zephyr Networking API](https://apis.io/apis/zephyr/zephyr-networking-api/) — The Zephyr networking stack exposes BSD-like sockets, TLS/DTLS, MQTT, CoAP, LWM2M, HTTP, WebSocket, gRPC, and connectivity layers including IPv4/IPv6,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-03
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### Zephyr RTOS Kernel API
+Linked-data contexts for the provider's vocabulary.
 
-The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications.
+- [Zephyr Context](https://apis.io/jsonld/zephyr/zephyr-context/)
 
-**Human URL:** [https://docs.zephyrproject.org/latest/kernel/index.html](https://docs.zephyrproject.org/latest/kernel/index.html)
+#### Vocabulary (1)
 
-#### Properties
+The provider's domain terms, defined.
 
-- [Documentation](https://docs.zephyrproject.org/latest/kernel/index.html)
-- [APIReference](https://docs.zephyrproject.org/apidoc/latest/index.html)
-- [GettingStarted](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
-- [GitHubRepository](https://github.com/zephyrproject-rtos/zephyr)
+- [Zephyr Project Vocabulary](https://apis.io/vocabularies/zephyr/zephyr-vocabulary/)
 
-### Zephyr Device Driver API
+#### Security (1)
 
-The Zephyr device driver subsystem exposes a uniform device model across GPIO, I2C, SPI, UART, ADC, sensors, displays, networking, USB, Bluetooth, and many other peripheral classes, configured through Devicetree and Kconfig.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://docs.zephyrproject.org/latest/build/dts/index.html](https://docs.zephyrproject.org/latest/build/dts/index.html)
+- [Zephyr Domain Security](https://apis.io/security/zephyr/zephyr-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://docs.zephyrproject.org/latest/hardware/index.html)
-- [APIReference](https://docs.zephyrproject.org/apidoc/latest/group__io__interfaces.html)
+Published plans, tiers and prices.
 
-### Zephyr Networking API
+- [Zephyr Plans Pricing](https://apis.io/plans/zephyr/zephyr-plans-pricing/)
 
-The Zephyr networking stack exposes BSD-like sockets, TLS/DTLS, MQTT, CoAP, LWM2M, HTTP, WebSocket, gRPC, and connectivity layers including IPv4/IPv6, Wi-Fi, Thread, OpenThread, Matter, and BLE.
+#### Rate limits (1)
 
-**Human URL:** [https://docs.zephyrproject.org/latest/connectivity/networking/index.html](https://docs.zephyrproject.org/latest/connectivity/networking/index.html)
+Published request limits.
 
-#### Properties
+- [Zephyr Rate Limits](https://apis.io/rate-limits/zephyr/zephyr-rate-limits/)
 
-- [Documentation](https://docs.zephyrproject.org/latest/connectivity/networking/index.html)
+#### FinOps (1)
 
-## Common Properties
+What the API costs to run, by operation.
 
-- [Portal](https://www.zephyrproject.org/)
+- [Zephyr Finops](https://apis.io/finops/zephyr/zephyr-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.zephyrproject.org/)
 - [Documentation](https://docs.zephyrproject.org/latest/)
-- [APIReference](https://docs.zephyrproject.org/apidoc/latest/index.html)
-- [GettingStarted](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
-- [GitHubOrganization](https://github.com/zephyrproject-rtos)
-- [GitHubRepository](https://github.com/zephyrproject-rtos/zephyr)
-- [SDK (sdk-ng)](https://github.com/zephyrproject-rtos/sdk-ng)
-- [CLI (west)](https://github.com/zephyrproject-rtos/west)
+- [Getting started](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
+- [API reference](https://docs.zephyrproject.org/apidoc/latest/index.html)
 - [Blog](https://www.zephyrproject.org/blog/)
-- [ReleaseNotes](https://docs.zephyrproject.org/latest/releases/index.html)
-- [Training](https://www.zephyrproject.org/training-partner-program/)
-- [Events](https://www.zephyrproject.org/events/)
-- [Compliance / Security](https://docs.zephyrproject.org/latest/security/index.html)
-- [TermsOfService](https://www.linuxfoundation.org/terms)
-- [PrivacyPolicy](https://www.linuxfoundation.org/privacy-policy/)
-- [JSON-LD Context](json-ld/zephyr-context.jsonld)
-- [Vocabulary](vocabulary/zephyr-vocabulary.yml)
-- [Capability: Build and Flash](capabilities/zephyr-build.yaml)
+- [Compliance](https://docs.zephyrproject.org/latest/security/index.html)
+- [Terms of service](https://www.linuxfoundation.org/terms)
+- [Privacy policy](https://www.linuxfoundation.org/privacy-policy/)
+- [GitHub](https://github.com/zephyrproject-rtos)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 35.7** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zephyr/](https://apis.io/providers/zephyr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zephyr Project: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zephyr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
